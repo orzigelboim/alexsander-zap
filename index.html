@@ -1,72 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    <title>Index</title>
-    <div class="col-md-6" style="margin:20px;">
-        <div class="portlet yellow-lemon box">
-            <div class="portlet-title">
-                <div class="caption">
-                    <i class="fa fa-cogs"></i>אלכסנדר
-                </div>
-            </div>
-            <div class="portlet-body">
-                <div id="tree_3" class="tree-demo jstree jstree-3 jstree-default" role="tree" aria-activedescendant="j3_1">
-                    <ul class="jstree-container-ul jstree-children">
-                        <li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
-                            <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="Gagon.xml" target="_blank">
-                                <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>גגונים
-                            </a>
-                        </li>
-<li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
-                            <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="wipers.xml" target="_blank">
-                                <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>מגבים
-                            </a>
-                        </li>
-<li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
-                            <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="Multimedia.xml" target="_blank">
-                                <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>מולטימדיה
-                            </a>
-                        </li>
-<li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
-                            <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="Speakers.xml" target="_blank">
-                                <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>רמקולים
-                            </a>
-                        </li>
-<li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
-                            <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="Electronics.xml" target="_blank">
-                                <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>אביזרי חשמל לרכב
-                            </a>
-                        </li>
-<li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
-                            <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="Accessories.xml" target="_blank">
-                                <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>אביזרים לרכב
-                            </a>
-                        </li>
-<li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
-                            <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="Covers.xml" target="_blank">
-                                <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>כיסויים
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    <title>Shopify Product Export</title>
 </head>
 <body>
-    <div>
-    </div>
+    <h1>Shopify Product Export</h1>
+    <input type="text" id="collectionName" placeholder="Enter Collection Name">
+    <button onclick="fetchProducts()">Get Products</button>
+    <pre id="result"></pre>
+
+    <script>
+        function fetchProducts() {
+            const collectionName = document.getElementById("collectionName").value;
+            fetch(`https://yourapp.up.railway.app/get_products?collection_name=${collectionName}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerText = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById("result").innerText = `Error: ${error}`;
+                });
+        }
+    </script>
 </body>
 </html>
