@@ -8,6 +8,8 @@ html_template = """<!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title>Index</title>
+</head>
+<body>
     <div class="col-md-6" style="margin:20px;">
         <div class="portlet yellow-lemon box">
             <div class="portlet-title">
@@ -24,10 +26,6 @@ html_template = """<!DOCTYPE html>
             </div>
         </div>
     </div>
-</head>
-<body>
-    <div>
-    </div>
 </body>
 </html>
 """
@@ -38,7 +36,7 @@ def generate_list_items(xml_files):
         name = input(f"Enter display name for {xml_file}: ")
         list_items += f'''<li role="treeitem" id="j3_14" class="jstree-node jstree-leaf jstree-last" aria-selected="false">
                             <i class="jstree-icon jstree-ocl"></i>
-                            <a class="jstree-anchor" href="{xml_file}" target="_blank">
+                            <a class="jstree-anchor" href="{xml_file}" target="_self">
                                 <i class="jstree-icon jstree-themeicon fa fa-folder icon-state-warning icon-lg jstree-themeicon-custom"></i>{name}
                             </a>
                         </li>\n'''
@@ -54,7 +52,7 @@ def main():
     # Create the final HTML content
     html_content = html_template.format(list_items=list_items)
     
-    # Write the HTML content to index.html
+    # Write the HTML content to index.html (overwrite if it exists)
     with open("index.html", "w", encoding="utf-8") as file:
         file.write(html_content)
     
