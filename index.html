@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Greeting App</title>
+</head>
+<body>
+    <h1>Simple Greeting App</h1>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" placeholder="Your name">
+    <button onclick="sendName()">Greet Me</button>
+    <pre id="response"></pre>
+
+    <script>
+        function sendName() {
+            const name = document.getElementById("name").value;
+            fetch('https://your-backend-url.up.railway.app/greet', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name: name })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("response").innerText = data.message || data.error;
+            })
+            .catch(error => {
+                document.getElementById("response").innerText = `Error: ${error}`;
+            });
+        }
+    </script>
+</body>
+</html>
