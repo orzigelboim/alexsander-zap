@@ -94,7 +94,7 @@ def export_products_to_xml(products, collection_name):
             
             # Existing mappings for product-level details
             mappings = {
-                'PRODUCT_URL': f"https://{STORE_DOMAIN}/product/{product['id']}",
+                'PRODUCT_URL': f"https://{STORE_DOMAIN}/products/{product['handle']}",
                 'PRODUCTCODE': str(product['id']),
                 'PRODUCT_NAME': product['title'],
                 'MODEL': variant.get('sku', 'N/A'),
