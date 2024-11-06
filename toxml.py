@@ -71,8 +71,25 @@ def export_products_to_xml(products, collection_name):
     root = ET.Element('STORE')
     products_elem = ET.SubElement(root, 'PRODUCTS')
 
+    archived_count = 0
+    price_zero_count = 0
+    exported_count = 0
+    total_products_count = 0
+
     for product in products:
-        for variant in product.get('variants', []):  # Export each variant as a separate product
+        total_products_count += 1
+        # Skip archived products
+        if product.get('status') == 'archived':
+            archived_count += 1
+            continue
+        
+        for variant in product.get('variants', []):
+            # Skip products with price 0.00
+            if variant.get('price', '0.00') == '0.00':
+                price_zero_count += 1
+                continue
+            
+            exported_count += 1
             product_elem = ET.SubElement(products_elem, 'PRODUCT')
             
             # Existing mappings for product-level details
@@ -100,8 +117,12 @@ def export_products_to_xml(products, collection_name):
     filename = f"{collection_name.replace(' ', '_')}.xml"
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(pretty_xml)
+    
     print(f"XML export completed successfully. Product data saved to '{filename}'.")
-    print(f"Total number of products exported: {len(products)}")
+    print(f"Total number of products exported: {exported_count}")
+    print(f"Total number of archived products skipped: {archived_count}")
+    print(f"Total number of products with price 0.00 skipped: {price_zero_count}")
+    print(f"Total number of products in the collection: {total_products_count}")
     return filename
 
 def main():
