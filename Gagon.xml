@@ -23,7 +23,7 @@
 &lt;div class=&quot;form-group&quot; id=&quot;MainContent_ProductVariants_ColorsPanel&quot;&gt;&lt;br&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1350.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -56,7 +56,7 @@
 &lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1700.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -135,7 +135,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>5962.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -206,7 +206,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>2870.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -283,7 +283,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>3700.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -359,7 +359,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>3564.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -389,7 +389,7 @@
 &lt;div&gt;מתאים לגודל גלגל&lt;span&gt; &lt;/span&gt;הכל&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1300.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -423,7 +423,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>2249.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -454,7 +454,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>2399.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -511,7 +511,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>5017.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -583,7 +583,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>5454.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -612,7 +612,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1140.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -679,7 +679,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>670.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -705,7 +705,7 @@
 &lt;p style=&quot;text-align: right;&quot; data-mce-fragment=&quot;1&quot;&gt;&lt;span data-mce-fragment=&quot;1&quot; mce-data-marked=&quot;1&quot;&gt;&lt;strong data-mce-fragment=&quot;1&quot;&gt;5 שנים אחריות&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>798.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -738,7 +738,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1350.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -775,7 +775,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1155.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -809,7 +809,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>999.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -889,7 +889,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1045.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -944,7 +944,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>496.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -1007,7 +1007,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1099.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -1073,7 +1073,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1699.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -1126,7 +1126,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>1450.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>
@@ -1156,7 +1156,7 @@
 &lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;</DETAILS>
 			<CATALOG_NUMBER/>
 			<PRICE>655.00</PRICE>
-			<SHIPMENT_COST>15.00</SHIPMENT_COST>
+			<SHIPMENT_COST>00.00</SHIPMENT_COST>
 			<DELIVERY_TIME>7</DELIVERY_TIME>
 			<MANUFACTURER>Thule</MANUFACTURER>
 			<WARRANTY/>

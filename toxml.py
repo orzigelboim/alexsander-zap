@@ -101,7 +101,7 @@ def export_products_to_xml(products, collection_name):
                 'DETAILS': product.get('body_html', ''),
                 'CATALOG_NUMBER': '',
                 'PRICE': variant.get('price', '0.00'),
-                'SHIPMENT_COST': '15.00',  # Default shipment cost, can be modified
+                'SHIPMENT_COST': '00.00',  # Default shipment cost, can be modified
                 'DELIVERY_TIME': '7',  # Default delivery time, can be modified
                 'MANUFACTURER': product.get('vendor', 'Unknown'),
                 'WARRANTY': '',
