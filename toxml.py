@@ -92,6 +92,13 @@ def export_products_to_xml(products, collection_name):
             exported_count += 1
             product_elem = ET.SubElement(products_elem, 'PRODUCT')
             
+            # Get the image URL
+            image_url = product.get('image', {}).get('src', '') if product.get('image') else ''
+            
+            # Modify SVG image URLs
+            if '.svg?' in image_url:
+                image_url = image_url.split('.svg?')[0] + '.svg?format=jpeg'
+            
             # Existing mappings for product-level details
             mappings = {
                 'PRODUCT_URL': f"https://{STORE_DOMAIN}/products/{product['handle']}",
@@ -101,12 +108,12 @@ def export_products_to_xml(products, collection_name):
                 'DETAILS': product.get('body_html', ''),
                 'CATALOG_NUMBER': '',
                 'PRICE': variant.get('price', '0.00'),
-                'SHIPMENT_COST': '00.00',  # Default shipment cost, can be modified
-                'DELIVERY_TIME': '7',  # Default delivery time, can be modified
+                'SHIPMENT_COST': '00.00',
+                'DELIVERY_TIME': '4',
                 'MANUFACTURER': product.get('vendor', 'Unknown'),
                 'WARRANTY': '',
-                'IMAGE': product.get('image', {}).get('src', '') if product.get('image') else '',
-                'PRODUCT_TYPE': '0',  # Default product type, can be modified
+                'IMAGE': image_url,
+                'PRODUCT_TYPE': '0',
             }
             
             for tag, text in mappings.items():
